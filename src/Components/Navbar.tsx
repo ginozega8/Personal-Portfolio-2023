@@ -9,7 +9,7 @@ const Navbar = () => {
         <li className="flex-auto w-64 ...">
           <Image
             src="https://res.cloudinary.com/dgiqi5urn/image/upload/v1680030330/Portfolio%202023/My_Logo_2_ncqcf2.png"
-            alt="MENU"
+            alt="Gino_Dev"
             width={180}
             height={60}
             unoptimized
