@@ -9,10 +9,10 @@ export default function Home() {
   return <div>
     <Navbar />
     <div className={styles.homediv}>
-      <div className='flex flex-row place-content-evenly pt-[180px]'>
-        <div>
+      <div className='flex flex-row place-content-evenly pt-[180px] max-lg:pt-[20px] max-lg:flex-col-reverse max-lg:items-center'>
+        <div className='max-lg:flex-col max-lg:text-center'>
         <h1>GINO ZEGA <br /> FRONTEND DEVELOPER</h1>
-        <hr></hr>
+        <hr className='max-md:w-[280px]'></hr>
         </div>
         <div>
         <Image
@@ -21,6 +21,7 @@ export default function Home() {
           width={350}
           height={350}
           unoptimized
+          className='max-lg:w-[250px]'
         />
         </div>
       </div>

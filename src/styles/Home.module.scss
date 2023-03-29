@@ -4,7 +4,7 @@ $accent-yellow: #C5BD0D;
 
 .homediv{
     background-color: $base-navy;
-    width: 99vw;
+    width: 100%;
     height: 100vh;
     h1{
         margin-top: 0;
@@ -13,8 +13,25 @@ $accent-yellow: #C5BD0D;
         font-size: 70px;
     }
     hr{
-        width: 600px;
+        max-width: 600px;
         border-width: 3px;
         border-color: $accent-yellow;
     }
 }
+
+// Hr alignment fix
+@media (max-width: 1024px) {
+    .homediv{
+        hr {
+        margin: auto;
+    }
+}
+  }
+
+  @media (max-width: 768px) {
+    .homediv{
+        h1 {
+        font-size: 50px;
+    }
+}
+  }
