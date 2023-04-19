@@ -21,7 +21,7 @@ export default function Home() {
             width={350}
             height={350}
             unoptimized
-            className='max-lg:w-[250px]'
+            className='max-lg:w-[250px] cube-material'
           />
           <div className="main">
             <div className="circle"></div>

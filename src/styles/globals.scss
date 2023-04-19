@@ -20,7 +20,12 @@ body{
     top: 0;right: 0; bottom: 0; left: 0;
     margin:auto;
     border-radius:50%;
-    opacity: 75%;
+    opacity: 50%;
+    transition: all 0.5s;
+  }
+  .main:hover{
+    transform: scale(1.2);
+    opacity: 90%;
   }
   
   .circle{
