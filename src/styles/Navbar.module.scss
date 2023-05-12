@@ -14,7 +14,21 @@ $accent-yellow: #C5BD0D;
     letter-spacing: 2px;
 }
 .menu{
+position: fixed;
+top: 0;
+right: 0;
+background-color: black;
+width: 40vw;
+height: 100vh;
+color: white;
+z-index: 999999;
+}
 
+.menu ul li{
+    text-align: center;
+    font-family: 'Sen', sans-serif;
+    font-size: 60px;
+    line-height: 20vh;
 }
 
 .menuHidden{
