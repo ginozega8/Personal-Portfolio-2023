@@ -29,35 +29,33 @@ const Navbar = () => {
           <button className={styles.contactMeBtt}>CONTACT ME</button>
         </li>
         <li>
-          {isOpen && (
-            <div className={`${styles.menu}`}>
-              <button onClick={closeMenu}>
-                X
-              </button>
-              <ul>
-                <li>
-                  <Link href="/">
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/about">
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services">
-                    Services
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/contact">
-                    Contact
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          )}
+          <div className={`${isOpen ? (styles.menu) : (styles.menuHidden)}`}>
+            <button onClick={closeMenu} className={styles.closeMenuBtt}>
+             x
+            </button>
+            <ul>
+              <li>
+                <Link href="/">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link href="/about">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link href="/services">
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
           <button onClick={toggleMenu}>
             <Image
               src="https://res.cloudinary.com/dgiqi5urn/image/upload/v1680030544/Portfolio%202023/Hammenu_gneab8.png"

@@ -22,23 +22,53 @@ width: 40vw;
 height: 100vh;
 color: white;
 z-index: 999999;
+transition: ease-in-out .5s;
+}
+.closeMenuBtt{
+    font-size: 40px;
+    padding-left: 20px;
+    transition: all .2s;
 }
 
-.menu ul li{
+.closeMenuBtt:hover{
+    color: $accent-yellow;
+}
+
+.menuHidden{
+    position: fixed;
+    top: 0;
+    right: -75%;
+    width: 40vw;
+    height: 100vh;
+    z-index: 999999;
+    transition: ease-in-out .5s;
+    }
+
+.menu ul li, .menuHidden ul li{
     text-align: center;
     font-family: 'Sen', sans-serif;
     font-size: 60px;
     line-height: 20vh;
+    transition: all 0.2s;
+    text-underline-offset: 16px;
 }
 
-.menuHidden{
-    display: none;
+.menu ul li:hover{
+    color: $accent-yellow;
+    text-decoration: underline;
 }
-.menuShown{
-    display: block;
-}
+
+@media (max-width: 1000px) {
+    .menu{
+        width: 60vw;
+        }
+  }
+
 @media (max-width: 600px) {
     .contactMeBtt {
         display: none;
     }
+    .menu{
+        width: 100vw;
+        }
   }
