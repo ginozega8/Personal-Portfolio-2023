@@ -1,6 +1,10 @@
 $text-1-gray: #CCD6F6;
 $base-navy: #0A192F;
 $accent-yellow: #C5BD0D;
+.fade-in {
+    opacity: 1;
+  }
+
 .Navbar{
     padding: 20px 60px 20px 20px;
     background-color: $base-navy;
