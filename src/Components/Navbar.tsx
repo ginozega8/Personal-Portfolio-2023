@@ -37,7 +37,7 @@ const Navbar = () => {
             alt="Gino_Dev"
             width={180}
             height={60}
-            unoptimized
+            priority
           />
         </li>
         <li>
@@ -77,7 +77,7 @@ const Navbar = () => {
               alt="Menu"
               width={50}
               height={50}
-              unoptimized
+              priority
             />
           </button>
         </li>
