@@ -33,10 +33,10 @@ const Navbar = () => {
       <ul className='flex space-x-6 max-[430px]:space-x-0'>
         <li className="flex-auto w-10 ...">
           <Image
-            src="https://res.cloudinary.com/dgiqi5urn/image/upload/v1681483093/Portfolio%202023/Gino_Dev_hkbn7y.png"
-            alt="Gino_Dev"
-            width={180}
-            height={60}
+            src="https://res.cloudinary.com/dgiqi5urn/image/upload/v1690926205/Portfolio%202023/LOgo_1_xxoptz.png"
+            alt="Gino Dev | Frontend Developer"
+            width={166}
+            height={61}
             priority
           />
         </li>

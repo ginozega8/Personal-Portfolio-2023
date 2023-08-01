@@ -1,50 +1,6 @@
-$base-navy: #091133;
+$base-navy: #0a192f;
 $text-1-gray: #CCD6F6;
-$accent-yellow: #C5BD0D;
+$accent-yellow: #fff200;
+$text-soft-yellow: #ECF671; 
 $text-blue: #6F7CB2;
 
-.homediv {
-    background-color: $base-navy;
-    width: 100%;
-    height: auto;
-
-    h1 {
-        margin-top: 0;
-        color: $text-1-gray;
-        font-weight: 400;
-        font-size: 70px;
-    }
-
-    hr {
-        max-width: 600px;
-        border-width: 3px;
-        border-color: $accent-yellow;
-    }
-
-}
-
-.features {
-    background-color: #000000;
-    opacity: 0.8;
-    background-image: radial-gradient(#C5BD0D 0.5px, #000000 0.5px);
-    background-size: 10px 10px;
-    width: 30vw;
-    height: 100vh;
-}
-
-// Hr alignment fix
-@media (max-width: 1024px) {
-    .homediv {
-        hr {
-            margin: auto;
-        }
-    }
-}
-
-@media (max-width: 768px) {
-    .homediv {
-        h1 {
-            font-size: 50px;
-        }
-    }
-}

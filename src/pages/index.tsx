@@ -27,31 +27,14 @@ export default function Home() {
       <>
         < Navbar />
         <div className={styles.homediv}>
-          <div className='flex flex-row place-content-evenly pt-[180px] max-lg:pt-[20px] max-lg:flex-col-reverse max-lg:items-center relative mb-52'>
-            <div className='max-lg:flex-col max-lg:text-center'>
-              <h1>GINO ZEGA <br /> FRONTEND DEVELOPER</h1>
-              <hr className='max-md:w-[280px]'></hr>
-            </div>
-            <div className='relative'>
-              <Image
-                src="https://res.cloudinary.com/dgiqi5urn/image/upload/v1680106020/Portfolio%202023/material_mtvlih.png"
-                alt="Cube"
-                width={350}
-                height={350}
-                priority
-                className='max-lg:w-[250px] cube-material'
-              />
-              <div className="main">
-                <div className="circle"></div>
+          <div className='w-[80vw] sm:w-[60vw] ml-5 sm:ml-[20vw] pt-[20vh]'>
+            <div className="glitch-wrapper">
+              <div className="glitch" data-text="HELLO, I'M GINO ZEGA">HELLO, I'M GINO ZEGA</div>
+              <p className='text-text-1-gray'><br />I'm the one who brings websites to life with <span className='font-bold text-text-soft-yellow'>frontend development</span>. I transform lines of code into responsive, maintainable, and user-centered digital experiences.</p>
+              <div className='flex flex-col sm:flex-row'>
+              <a className='text-text-1-gray text-left pt-10 text-[17px] font-bold hover:text-text-soft-yellow duration-500 cursor-pointer'>Read more about me <span className='text-[20px] pl-2'>→</span></a>
+              <a className='text-text-1-gray text-left pt-10 sm:pl-10 pl-0 text-[17px] font-bold hover:text-text-soft-yellow duration-500 cursor-pointer'>Contact Me <span className='text-[20px] pl-2'>→</span></a>
               </div>
-            </div>
-          </div>
-          <div className='flex flex-row'>
-            <div className={styles.features}>
-            </div>
-            <div className="text-center basis-3/4">
-              <h2 className='text-3xl text-accent-yellow'>Responsive, User-Friendly, and Scalable</h2>
-              <p className="text-slate-600 text-text-blue">Those are my priorities as a developer, I always try to develop a product that is suitable for both customers and developers, taking into account the variety of devices, and people.</p>
             </div>
           </div>
         </div>
