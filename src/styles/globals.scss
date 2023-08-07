@@ -19,6 +19,17 @@ body {
    background-color: $base-navy;
 }
 
+.cursor{
+   background: rgb(0,20,64);
+   background: radial-gradient(circle, rgba(0,20,64,1) 0%, rgba(2,21,62,1) 43%, rgba(0,20,64,1) 100%);
+   height: 400px;
+   width: 400px;
+   border-radius: 100%;
+   z-index: -90;
+   position: fixed;
+   top: 0;
+   left: 0;
+}
 
 // GLITCH EFFECT (Thanks to https://www.cssportal.com/css-glitch-text-effect/)
 .glitch-wrapper {
@@ -46,7 +57,7 @@ body {
     left: -2px;
     width: 100%;
     color: 40px;
-    background-color: #0A192F;
+    background-color: transparent;
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
     animation: noise-before 3s infinite linear alternate-reverse;
@@ -59,7 +70,7 @@ body {
     left: 2px;
     width: 100%;
     color: 40px;
-    background-color: #0A192F;
+    background-color: transparent;
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
     animation: noise-after 2s infinite linear alternate-reverse;

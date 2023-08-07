@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image'
 import styles from '../styles/Navbar.module.scss'
+import { CgMenuGridR } from 'react-icons/cg';
 import { useState, useEffect, useRef } from 'react';
 
 const Navbar = () => {
@@ -40,9 +41,7 @@ const Navbar = () => {
             priority
           />
         </li>
-        <li>
-          <button className={styles.contactMeBtt}>CONTACT ME</button>
-        </li>
+       
         <li>
           <div className={`${isOpen ? (styles.menu) : (styles.menuHidden)}`}>
             <button onClick={closeMenu} className={styles.closeMenuBtt}>
@@ -72,13 +71,7 @@ const Navbar = () => {
             </ul>
           </div>
           <button onClick={toggleMenu}>
-            <Image
-              src="https://res.cloudinary.com/dgiqi5urn/image/upload/v1680030544/Portfolio%202023/Hammenu_gneab8.png"
-              alt="Menu"
-              width={50}
-              height={50}
-              priority
-            />
+            <CgMenuGridR className='text-text-1-gray text-left text-[50px] font-bold hover:text-text-soft-yellow duration-500 cursor-pointer' />
           </button>
         </li>
       </ul>
