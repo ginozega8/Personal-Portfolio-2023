@@ -20,10 +20,10 @@ body {
 }
 
 .cursor{
-   background: rgb(0,20,64);
-   background: radial-gradient(circle, rgba(0,20,64,1) 0%, rgba(2,21,62,1) 43%, rgba(0,20,64,1) 100%);
-   height: 400px;
-   width: 400px;
+   background: rgb(12,44,87);
+background: radial-gradient(circle, rgba(12,44,87,1) 0%, rgba(15,31,56,1) 27%, rgba(10,25,47,1) 63%, rgba(10,25,46,1) 70%);
+      height: 600px;
+   width: 600px;
    border-radius: 100%;
    z-index: -90;
    position: fixed;
@@ -31,7 +31,7 @@ body {
    left: 0;
 }
 
-// GLITCH EFFECT (Thanks to https://www.cssportal.com/css-glitch-text-effect/)
+// GLITCH TEXT EFFECT (Thanks to https://www.cssportal.com/css-glitch-text-effect/)
 .glitch-wrapper {
     display: flex;
     align-items: left;
