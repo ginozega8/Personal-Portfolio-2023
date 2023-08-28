@@ -31,6 +31,8 @@ background: radial-gradient(circle, rgba(12,44,87,1) 0%, rgba(15,31,56,1) 27%, r
    left: 0;
 }
 
+
+
 // GLITCH TEXT EFFECT (Thanks to https://www.cssportal.com/css-glitch-text-effect/)
 .glitch-wrapper {
     display: flex;
@@ -208,3 +210,8 @@ background: radial-gradient(circle, rgba(12,44,87,1) 0%, rgba(15,31,56,1) 27%, r
     }
  }
  
+ @media (max-width: 1280px) {
+   .cursor{
+      display: none;
+   }
+ }
