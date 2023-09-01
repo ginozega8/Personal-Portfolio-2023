@@ -33,6 +33,7 @@ const Navbar = () => {
     <nav className={styles.Navbar} ref={navbarRef}>
       <ul className='flex space-x-6 max-[430px]:space-x-0'>
         <li className="flex-auto w-10 ...">
+          <Link href="/">
           <Image
             src="https://res.cloudinary.com/dgiqi5urn/image/upload/v1690926205/Portfolio%202023/LOgo_1_xxoptz.png"
             alt="Gino Dev | Frontend Developer"
@@ -40,6 +41,7 @@ const Navbar = () => {
             height={61}
             priority
           />
+          </Link>
         </li>
        
         <li>
@@ -59,8 +61,8 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/services">
-                  Services
+                <Link href="/projects">
+                  Projects
                 </Link>
               </li>
               <li>

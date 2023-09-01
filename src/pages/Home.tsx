@@ -15,7 +15,7 @@ export default function Home() {
               <div className="glitch" data-text="HELLO, I'M GINO ZEGA">HELLO, I'M GINO ZEGA</div>
               <p className='text-text-1-gray'><br />I'm the one who brings websites to life with <span className='font-bold text-text-soft-yellow'>frontend development</span>. I transform lines of code into responsive, maintainable, and user-centered digital experiences.</p>
               <div className='flex flex-col sm:flex-row'>
-                <Link href={"./About"} className='text-text-1-gray text-left pt-5 text-[17px] font-bold hover:text-text-soft-yellow duration-500 cursor-pointer'>Read more about me <span className='text-[20px] pl-2'>→</span></Link>
+                <Link href={"./about"} className='text-text-1-gray text-left pt-5 text-[17px] font-bold hover:text-text-soft-yellow duration-500 cursor-pointer'>Read more about me <span className='text-[20px] pl-2'>→</span></Link>
                 <a className='text-text-1-gray text-left pt-5 sm:pl-10 pl-0 text-[17px] font-bold hover:text-text-soft-yellow duration-500 cursor-pointer'>Contact Me <span className='text-[20px] pl-2'>→</span></a>
               </div>
               <div className='flex sm:flex-row'>
