@@ -3,7 +3,6 @@ import type { AppProps } from 'next/app'
 import { useState, useEffect } from 'react';
 import LoadingScreen from '../Components/LoadingScreen';
 import { motion } from 'framer-motion';
-import About from './about';
 
 export default function App({ Component, pageProps }: AppProps) {
   // Loading Screen Functionality
